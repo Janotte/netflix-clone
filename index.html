@@ -46,5 +46,16 @@
     
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+        const btn = document.querySelector('.navbar-toggler');
+        const navbar = document.querySelector('.navbar');
+
+        btn.addEventListener('click', e => {
+
+            navbar.classList.toggle('sidebar-open');
+            
+        })
+    </script>
 </body>
 </html>
