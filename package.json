@@ -11,5 +11,13 @@
   "dependencies": {
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janotte/netflix-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Janotte/netflix-clone/issues"
+  },
+  "homepage": "https://github.com/Janotte/netflix-clone#readme"
 }
