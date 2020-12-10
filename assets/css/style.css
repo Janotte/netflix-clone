@@ -28,7 +28,7 @@ body, .bg-dark {
     padding-right: 0px;
 }
 
-.navbar ul {
+.navbar ul.sidebar {
     color: #999998;
     max-width: 250px;
     background-color: #1b1b1b;
@@ -117,6 +117,41 @@ body, .bg-dark {
 }
 
 @media (min-width: 992px) {
+
+    .navbar.bg-dark {
+        background-color: transparent!important;
+        background-image: url('../img/header_gradient.png');
+        background-repeat: repeat-x;
+    }
+
+    .full-banner {
+        min-height: 50vh;
+    }
+
+    .full-banner {
+        color: #999998;
+        max-width: 50vw;
+    }
+
+    .navbar-brand.flex-grow-1 {
+        flex-grow: initial!important;
+    }
+    
+    .navbar ul.nav {
+        flex-grow: 1!important;
+    }
+
+    .navbar ul.nav .active {
+        color: #e30f19!important;
+        font-weight: bold;
+    }
+
+    .navbar img {
+        height: 34px;
+    }
+
+
+
 
 
 }
