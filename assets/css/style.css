@@ -52,7 +52,7 @@ body, .bg-dark {
 
 .navbar ul li .divider {
     border-bottom: #999998 1px solid;
-    margin: 00.3em auto;
+    margin: 0.3em auto;
 }
 
 .media-avatar img {
@@ -60,7 +60,7 @@ body, .bg-dark {
 }
 
 .backdrop {
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
     top: 60px;
     left: 0;
@@ -150,14 +150,22 @@ body, .bg-dark {
         height: 34px;
     }
 
-
-
-
-
 }
 
 @media (min-width: 1200px) {
 
+    .navbar ul.nav li {
+        padding: 0;
+    }
+
+    .navbar ul.nav {
+        color: rgba(255, 255, 255, .5)!important;
+    }
+
+    .navbar ul.nav .active {
+        color: rgba(255, 255, 255, 1)!important;
+        font-weight: bold;
+    }
 
 }
 
